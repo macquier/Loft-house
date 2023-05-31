@@ -1,0 +1,52 @@
+.footer {
+  padding: 72px 0 51px;
+  background-color: $footer-bg;
+}
+
+.footer__row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+
+  @include mediaTablet {
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 40px;
+  }
+}
+
+.footer__logo {
+  margin-top: -12px;
+}
+
+.footer__logo p {
+  margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.footer__nav {
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.footer__nav-list {
+  /*transition: color 0.2s ease-in;
+
+  &:hover {
+    color: $color-accent;
+  }*/
+}
+
+.footer__nav-list > *:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.footer__address > *:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 25px;
+}

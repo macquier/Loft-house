@@ -1,0 +1,32 @@
+.map {
+  padding: 180px 0;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: "V";
+    right: calc(50% + 555px);
+    transform: translate(50%, 0%);
+
+    @include decorNumber;
+    line-height: 1;
+    top: 180px;
+  }
+
+  @include mediaTablet {
+    padding: 90px 0;
+  }
+}
+
+.map__title {
+  margin-bottom: 88px;
+
+  @include mediaTablet {
+    margin-bottom: 44px;
+  }
+}
+
+.map__link-photo {
+  height: 358px;
+  background-color: #626262;
+}

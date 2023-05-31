@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loft house</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-row">
+            <!-- header__top-row--mobile -->
+            <a class="header__logo">
+              <img src="./img/logo.svg" alt="logo" />
+              <p>Residential complex</p>
+            </a>
+
+            <div class="header__nav">
+              <nav class="nav">
+                <ul class="nav__list">
+                  <li><a href="#">About the complex</a></li>
+                  <li><a href="#">Area</a></li>
+                  <li><a href="#">Catalogue of flats</a></li>
+                  <li><a href="#">Mortgage</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="header__nav-btn">
+              <button class="nav__icon-btn">
+                <div class="nav__icon"></div>
+                <!-- nav__icon-img--active -->
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1 class="header__title">
+          Residential complex <br />
+          in the historic centre
+          <a class="header__title-icon" href="#benefits">
+            <img src="./img/header/mouse.svg" alt="mouse"
+          /></a>
+        </h1>
+      </div>
+
+      <div class="header__footer">
+        <div class="text-right">
+          <a class="info info--map" href="#address"> Grzybowska 43A </a>
+        </div>
+        <a class="info info--tel" href="#address"> 2149836003 </a>
+      </div>
+    </header>
+
+    <main>
+      <section class="benefits">
+        <h2 class="hidden">Benefits</h2>
+
+        <div class="container container--small">
+          <div class="benefits__row">
+            <div class="benefits__item">
+              <img
+                src="./img/benefits/bench.svg"
+                alt=""
+                class="benefit__item-icon"
+              />
+              <p class="benefit__item-text">
+                Nearby historic parks and squares
+              </p>
+            </div>
+            <div class="benefits__item">
+              <img
+                src="./img/benefits/building.svg"
+                alt=""
+                class="benefit__item-icon"
+              />
+              <p class="benefit__item-text">Fully equipped</p>
+            </div>
+            <div class="benefits__item">
+              <img
+                src="./img/benefits/fountain.svg"
+                alt=""
+                class="benefit__item-icon"
+              />
+              <p class="benefit__item-text">10 fountains on the territory</p>
+            </div>
+            <div class="benefits__item">
+              <img
+                src="./img/benefits/bicycle.svg"
+                alt=""
+                class="benefit__item-icon"
+              />
+              <p class="benefit__item-text">6 km cycling paths</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="apartments">
+        <div class="container">
+          <div class="apartments__title">
+            <h2 class="title-2">Our properties</h2>
+          </div>
+
+          <div class="apartments__cards">
+            <a href="#cards" class="card">
+              <img src="./img/apartments/01.jpg" alt="1" class="card__img" />
+              <h3 class="card__title">Penthouse "Loft Olympus"</h3></a
+            >
+            <a href="#cards" class="card">
+              <img src="./img/apartments/02.jpg" alt="2" class="card__img" />
+              <h3 class="card__title">Apartment "Nice Loft"</h3></a
+            >
+            <a href="#cards" class="card">
+              <img src="./img/apartments/03.jpg" alt="3" class="card__img" />
+              <h3 class="card__title">Apartment "Loft Studio"</h3></a
+            >
+            <a href="#cards" class="card">
+              <img src="./img/apartments/04.jpg" alt="4" class="card__img" />
+              <h3 class="card__title">Apartment "Loft Prestige"</h3></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="reservation">
+        <div class="container">
+          <div class="reservation__title">
+            <h2 class="title-2">Would you like to have a look?</h2>
+          </div>
+          <div class="reservation__wrapper">
+            <div class="reservation__desc">
+              <p>
+                LoftHouse is a business class project located in the centre of
+                the city, at Grzybowska 43A. The complex offers its residents
+                flats with an area ranging from 40 to 170 square metres. The
+                building will have three sections with a total of 56 flats.
+              </p>
+            </div>
+            <form action="" class="reservation__form form">
+              <input
+                type="text"
+                class="form__input"
+                placeholder="Your name"
+                autocomplete="off"
+              />
+              <input
+                data-tel-input
+                type="tel"
+                class="form__input"
+                placeholder="Your phone number"
+                autocomplete="off"
+              />
+              <p class="form__privacy form__privacy--bottom">
+                * We do not share your details with anyone and we do not keep
+                your number in the database.
+              </p>
+
+              <button type="submit" class="form__btn">See area</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+        <h2 class="hidden">Video</h2>
+        <div class="container">
+          <a href="#video" class="video__link">
+            <img src="./img/video/play.svg" alt="Icon" class="video__icon" />
+            <img src="./img/video/bg-2.jpg" alt="Video" class="video__img" />
+          </a>
+        </div>
+      </section>
+
+      <section class="map">
+        <div class="container">
+          <div class="map__title">
+            <h2 class="title-2">Area on the map</h2>
+          </div>
+          <div class="map__link">
+            <div class="map__link-photo"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feedback">
+        <div class="container">
+          <div class="feedback__title">
+            <h2 class="title-2">Any questions?</h2>
+          </div>
+
+          <form action="" class="feedback__form form">
+            <p class="form__privacy form__privacy--bottom">
+              * We do not share your details with anyone and we do not keep your
+              number in the database.
+            </p>
+            <input
+              type="text"
+              class="form__input"
+              placeholder="Your name"
+              autocomplete="off"
+            />
+            <input
+              data-tel-input
+              type="tel"
+              class="form__input"
+              placeholder="Your phone number"
+              autocomplete="off"
+            />
+            <button type="submit" class="form__btn">See area</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__row">
+          <div class="footer__logo">
+            <a class="footer__logo-link">
+              <img src="./img/logo.svg" alt="logo" />
+              <p>Residential complex</p>
+            </a>
+          </div>
+          <div class="footer__nav">
+            <nav>
+              <ul class="footer__nav-list">
+                <li><a href="#">About the complex</a></li>
+                <li><a href="#">Area</a></li>
+                <li><a href="#">Catalogue of flats</a></li>
+                <li><a href="#">Mortgage</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__nav">
+            <nav>
+              <ul class="footer__nav-list">
+                <li><a href="#">Settlement and relocation</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Environmental sustainability</a></li>
+                <li><a href="#">Investment opportunities</a></li>
+                <li><a href="#">The loyalty programme</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__address">
+            <ul class="footer__nav-list">
+              <li>Address: Grzybowska 43A</li>
+              <li>Phone number:<a href="tel:+2149836003"> 2149836003 </a></li>
+              <li>Sales Office: 10:00 - 20:00</li>
+              <li>
+                E-mail:
+                <a class="link-bold" href="mailto:vip@lofthouse.pl">
+                  vip@lofthouse.pl
+                </a>
+              </li>
+            </ul>
+            <ul class="footer__socials">
+              <li>
+                <a href="#!">
+                  <img src="./img/footer/youtube.svg" alt="youtube" />
+                </a>
+              </li>
+              <li>
+                <a href="#!"
+                  ><img src="./img/footer/facebook.svg" alt="facebook"
+                /></a>
+              </li>
+              <li>
+                <a href="#!"
+                  ><img src="./img/footer/instagram.svg" alt="instagram"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- YouTube LightBox -->
+    <div id="youtubelightbox" class="youtubelightbox">
+      <div class="youtubelightbox__centeredchild">
+        <div class="youtubelightbox__videowrapper">
+          <div id="youtubelightboxPlayer"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./libs/phoneMask/mask.js"></script>
+    <script src="./libs/phoneMask/mask_list.js"></script>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
